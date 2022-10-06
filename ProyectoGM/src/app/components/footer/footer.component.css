@@ -1,0 +1,9 @@
+.row{
+    background:linear-gradient( #dbffff, #ffffff );
+}
+footer{
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    text-align: center;
+}

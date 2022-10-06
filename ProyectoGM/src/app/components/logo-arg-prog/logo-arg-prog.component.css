@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logoArgProg{
+    width: 180px;
+}
+.rsociales{
+    margin-right: 0.5em;
+    
+}
+
+img{
+    width: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.btn{
+    border-width: medium;
+    margin-right: 3px;
+    margin-left: 5px;
+}
+
+/*--- Para la vista celular ---*/
+@media (max-width:575px){
+    .container{
+        flex-direction: column;
+    }
+    .rsociales{
+        display: flex;
+        flex-direction: column;
+    }
+    .rsociales img{
+        margin: 0,5em;
+    }
+}
