@@ -1,0 +1,24 @@
+.row{
+    padding: 25px;
+}
+
+div{
+    background:linear-gradient(#1D9DAC , #5dc1b9 ); 
+    text-align: center;
+}
+
+@media (min-width: 576px){
+    #fotodeperfil{
+        position:absolute;
+        width: 12%;
+        top: 450px;
+        left: 33px;
+    }
+}
+@media (max-width: 576px){
+    #fotodeperfil{
+        position:absolute;
+        width: 30%;
+        top: 950px;
+    }
+}
